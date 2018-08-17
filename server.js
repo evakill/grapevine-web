@@ -27,9 +27,13 @@ app.get('/checkin', function(req, res){
 })
 
 app.get('/', function(req, res){
-  var token = req.query.token;
   res.render('index');
 })
+
+app.get('/ambassadors/render', function(req, res){
+  console.log(req.query.code);
+  res.render('index');
+});
 
 
 io.on('connection', function(socket) {
