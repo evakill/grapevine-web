@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+Link:hover {
+  text-decoration: none;
+  text-emphasis: bold;
+}
+
+.shadow {
+  text-shadow: 2px 1px #B3A2B9;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "grapevine-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "braintree-web-drop-in": "^1.12.0",
+    "express": "^4.16.3",
+    "fingerprintjs2": "^1.8.1",
+    "geolib": "^2.0.24",
+    "http": "0.0.0",
+    "ip": "^1.1.5",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.6",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.2",
+    "react-geolocated": "^2.4.0",
+    "react-google-autocomplete": "^1.0.16",
+    "react-places-autocomplete": "^7.2.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-stripe-elements": "^2.0.1",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "stripe": "^6.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
