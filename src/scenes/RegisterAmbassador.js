@@ -170,9 +170,10 @@ class Stripe extends React.Component {
             <div style={{padding: 50}}>
               {/* {this.state.ambassador.firstName} */}
               <h2>Congratulations, ! You have registered as an Ambassador on Grapevine.
-                <br/>Before you get started, set up a Stripe account to process your payments.
+                <br/>
+                <br/>Before you get started, set up a Stripe account to process your payments.<br/>
 
-<a href="https://connect.stripe.com/express/oauth/authorize?redirect_uri=https://grapevine-events.herokuapp.com/ambassadors/register&client_id=ca_DQmrWkEFT0cHlD3I6n11LGLA8SAzTJM4">Connect With Stripe</a>
+<a href="https://connect.stripe.com/express/oauth/authorize?client_id=ca_DQmrWkEFT0cHlD3I6n11LGLA8SAzTJM4">Connect With Stripe</a>
                 </h2>
 
               </div> :
