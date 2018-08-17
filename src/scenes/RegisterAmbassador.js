@@ -173,7 +173,7 @@ class Stripe extends React.Component {
                 <br/>
                 <br/>Before you get started, set up a Stripe account to process your payments.<br/>
 
-<a href="https://connect.stripe.com/express/oauth/authorize?client_id=ca_DQmrWkEFT0cHlD3I6n11LGLA8SAzTJM4">Connect With Stripe</a>
+<a href="https://connect.stripe.com/express/oauth/authorize?client_id=ca_DQmreWXASkfSpNxFOQYMSzlxd5uzhzmJ">Connect With Stripe</a>
                 </h2>
 
               </div> :
