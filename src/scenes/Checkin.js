@@ -43,6 +43,7 @@ class Checkin extends React.Component {
   componentDidMount(){
     const self = this;
     socket.on('found collab', function(collab){
+      console.log(collab)
       if(collab) {
         console.log(collab.checkins, self.state.fingerprint)
         if(collab.checkins.indexOf(self.state.fingerprint) !== -1) self.setState({checked: true});
@@ -50,7 +51,7 @@ class Checkin extends React.Component {
           var date = dateStr.split(' ');
           date[1] = date[1].substring(0, date[1].length-3); //day
           date[2] = date[2].substring(0, date[2].length-1); //year
-          var dateObj = new Date(date[0] + ' ' + date[1] + ' ' + date[2] + ' ' + date[3] + ' ' + date[4] + ' PDT');
+          var dateObj = new Date(date[0] + ' ' + date[1] + ' ' + date[2] + ' ' + date[3] + ' ' + date[4] + ' EDT');
           console.log(dateObj)
           return Date.parse(dateObj);
         }

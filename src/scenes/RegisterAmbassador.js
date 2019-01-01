@@ -113,16 +113,6 @@ class Stripe extends React.Component {
           />
           <div style={{height:15}}></div>
 
-          <p style={styles.h2} >Payment Information</p>
-          <hr />
-
-          <CardElement style={{ base: {
-            fontSize: '18px',
-            width: '100%',
-          }}}
-        />
-        <div style={{height:15}}></div>
-
         <p style={styles.h2}> Create your Account </p>
         <hr />
         <FieldGroup
